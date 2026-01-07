@@ -1,0 +1,20 @@
+START
+Deklarasi array kandidat
+Deklarasi array suara
+
+Input jumlahPemilih
+
+FOR i = 1 TO jumlahPemilih DO
+    Tampilkan daftar kandidat
+    Input pilihan
+
+    IF pilihan valid THEN
+        suara[pilihan] = suara[pilihan] + 1
+    ELSE
+        Tampilkan pesan suara tidak sah
+    ENDIF
+END FOR
+
+Tampilkan hasil voting
+
+END
